@@ -1,0 +1,35 @@
+{
+  "name": "task-karma",
+  "version": "0.1.0",
+  "main": "lib/karma.js",
+  "description": "Test runner with karma.",
+  "homepage": "https://github.com/taskjs/task-karma",
+  "bugs": "https://github.com/taskjs/task-karma/issues",
+  "author": {
+    "name": "Yuanyan Cao",
+    "email": "yuanyan.cao@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taskjs/task-karma"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "keywords": [
+    "task"
+  ],
+  "dependencies": {
+    "execution": "^0.1.2",
+    "karma": "^0.12.16"
+  },
+  "scripts": {
+    "test": "node test/karma_test"
+  },
+  "devDependencies": {
+    "karma-jasmine": "^0.1.5",
+    "karma-chrome-launcher": "^0.1.4"
+  }
+}
